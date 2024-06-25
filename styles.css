@@ -1,0 +1,174 @@
+/* Overall Styling */
+nav{
+    background-color: #F8BF02;
+    color: #000000;
+}
+
+hr.rounded {
+    border-top: 3px solid #8a8a8a;
+    border-radius: 1px;
+}
+
+/* Index page styling */
+.mycarousel{
+    background-color: #0000006e;
+    border-radius: 10px;
+}
+
+.carousel-holder{
+    height: 500px;
+    margin-top: 10px;
+    width: 95%;
+    margin-left: 2.5%;
+    border-radius: 10px;
+}
+
+.carousel-holder > img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+#home-about{
+    padding: 10px;
+    background-color: #f8d30205;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+#home-about > h1{
+    text-align: center;
+    color: #F8BF02;
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    background-color: #8f8f8f;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.about-yellow{
+    color: #f8bf02;
+}
+
+#about-us{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.281);
+    padding: 10px;
+}
+
+#about-us > img{
+    width: 50%;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+#about-us > div{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#testimonials{
+    margin-top: 120px;
+}
+
+#testimonials > h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.client{
+    width: 80%;
+    margin-left: -85%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f8bf0259;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    animation-duration: 4s;
+}
+
+.client > img{
+    height: 75%;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.client-testimonial{
+    margin-left: 40px;
+    width: 60%;
+}
+
+@keyframes slide-in{
+    from{margin-left: -85%;}
+    to{margin-left: 10%;}
+}
+
+/* Services page styling */
+#our_procedures{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+    background-color: aliceblue;
+    margin-bottom: 50px;
+}
+
+#our_procedures > h1{
+    text-align: center;
+}
+
+#procedures_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.card{
+    margin: 10px;
+    animation-name: slide-down;
+    animation-duration: 6s;
+    animation-delay: 2s;
+}
+
+@keyframes slide-down{
+    from{margin-top: -100%;}
+    to{margin-top: 10px;}
+}
+
+/* Contact Page Styling */
+.contact{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.contact > h1{
+    text-align: center;
+}
+
+.contact > form{
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 30px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
